@@ -1,0 +1,210 @@
+.container {
+    position: relative;
+    z-index: 10;
+}
+
+.project {
+    background-color: white;
+}
+
+.consultancy__techno_content--left {
+    width: 100% !important;
+    float: none !important;
+}
+
+@media only screen and (max-width: 987px) {
+    .banner {
+        margin-top: 72px;
+    }
+
+    .rede {
+        margin-top: 72px;
+    }
+
+    .menu-banner__column img {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 756px) {
+    .banner {
+        margin-top: 51px;
+    }
+
+    .banner .img-banner {
+        margin-left: -299px;
+        height: 566px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .banner {
+        margin-top: 0px;
+    }
+}
+
+.popup__title h1 {
+    margin: 7px 0 5px 0;
+}
+
+.large_h2_popup {
+    margin: 16px 0 14px 0;
+    line-height: 34px;
+}
+
+.no-social-network {
+    padding-left: 0 !important;
+}
+
+.no-social-network .links {
+    margin-left: 0 !important;
+}
+
+.social-hidden {
+    display: none
+}
+
+.popup {
+    margin: 50px auto 20px auto !important;
+}
+
+@media only screen and (max-width: 756px) {
+    .popup {
+        margin: 30px auto 30px auto !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .popup {
+        margin: 20px auto 20px auto !important;
+    }
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.popup-container {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+.team .team-card a img {
+    margin-bottom: 15px;
+}
+
+.architects {
+    background-position: 100% 0;
+}
+
+.home__qualification__text {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.filet-white_mini  {
+    border-top: #fff 1px solid;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.background-blue {
+    background-color: #00ABC6;
+}
+
+.font-white {
+    color: #fff !important;
+}
+
+.home__research_content--containner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.margin-1rem {
+    margin: 1rem;
+}
+
+.info__maps {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 30% 70%;
+    justify-items: center;
+    width: 90vw;
+    padding-top: 3rem;
+}
+
+.info__maps img:first-child {
+    width: 70%;
+    height: auto;
+}
+
+.info__maps img:nth-child(2) {
+    width: 100%;
+    height: auto;
+}
+
+.consultancy__intro-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2rem;
+}
+
+.data-privacy__intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2rem;
+}
+
+.data-privacy__intro__intro-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 666px) {
+    .team .team-card {
+        margin-top: 20px;
+    }
+
+    .team .team-card a img {
+        width: 85%;
+    }
+
+    .info__maps {
+        grid-template-columns: 1fr;
+    }
+    .consultancy__intro-info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .team .team-card {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 984px) and (min-width: 756px) {
+    nav {
+        display: block;
+    }
+}
